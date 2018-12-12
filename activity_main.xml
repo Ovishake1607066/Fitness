@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit"
+        android:textColor="#b4d920"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="textCapWords"
+        android:hint="Please enter any food item\n e.g:Banana"
+        android:textStyle="italic"/>
+    <Button
+        android:id="@+id/but"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#441dc4"
+        android:textColor="#fff703"
+        android:text="Enter"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
